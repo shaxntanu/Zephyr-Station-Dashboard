@@ -1,5 +1,13 @@
 <p align="center">
-  <img src="Capture Assets/PosterZS.png" alt="Zephyr Station Dashboard" width="100%">
+  <a href="https://drive.google.com/file/d/1iaR-xoKKhLDQm8VRmJFT_1i-tg9UFFnZ/view?usp=sharing" target="_blank">
+    <img src="Capture Assets/PosterZS.png" alt="Click to Watch Demo Video" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1iaR-xoKKhLDQm8VRmJFT_1i-tg9UFFnZ/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/▶️_Watch_Demo_Video-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Watch Demo">
+  </a>
 </p>
 
 <h1 align="center">🌡️ Zephyr Station Dashboard</h1>
@@ -29,22 +37,6 @@ This is the **web dashboard** for the [Zephyr Station](https://github.com/shaxnt
 - 💨 **Air Quality** (MQ-135)
 
 The dashboard visualizes 16 days of testing data collected in Patiala, India (November 18 - December 3, 2025), demonstrating the system's capabilities with **138,240 data points**.
-
----
-
-## 🎬 Demo
-
-<p align="center">
-  <a href="https://drive.google.com/file/d/1iaR-xoKKhLDQm8VRmJFT_1i-tg9UFFnZ/view?usp=sharing">
-    <img src="Capture Assets/PosterZS.png" alt="Click to Watch Demo Video" width="80%">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://drive.google.com/file/d/1iaR-xoKKhLDQm8VRmJFT_1i-tg9UFFnZ/view?usp=sharing">
-    <img src="https://img.shields.io/badge/▶️_Watch_Demo_Video-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Watch Demo">
-  </a>
-</p>
 
 ---
 
