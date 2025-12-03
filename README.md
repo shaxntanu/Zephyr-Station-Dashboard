@@ -17,9 +17,15 @@
 </p>
 
 <p align="center">
+  <a href="https://zephyr-station-dashboard.vercel.app">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+  </a>
   <a href="https://github.com/shaxntanu/Zephyr-Station">
     <img src="https://img.shields.io/badge/Hardware-Zephyr%20Station-blue?style=for-the-badge" alt="Hardware Repo">
   </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Next.js-16.0-black?style=for-the-badge&logo=next.js" alt="Next.js">
   <img src="https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript" alt="TypeScript">
   <img src="https://img.shields.io/badge/Chart.js-4.0-pink?style=for-the-badge&logo=chart.js" alt="Chart.js">
