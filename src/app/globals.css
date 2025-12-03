@@ -1,26 +1,218 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-  }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+    color: var(--foreground);
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100vh;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+@keyframes pulse-alert {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.alert-flash {
+    animation: pulse-alert 0.5s ease-in-out infinite;
+}
+
+.oled-display {
+    font-family: 'Courier New', monospace;
+    background: #000;
+    border: 2px solid #333;
+    border-radius: 4px;
+    image-rendering: pixelated;
+}
+
+.gauge-ring {
+    transition: stroke-dashoffset 0.5s ease-out;
+}
+
+/* Cyberpunk Checkbox */
+.cyberpunk-checkbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #30cfd0;
+    border-radius: 4px;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.cyberpunk-checkbox:before {
+    content: "";
+    background-color: #30cfd0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cyberpunk-checkbox:checked:before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.cyberpunk-checkbox.orange {
+    border-color: #f97316;
+}
+
+.cyberpunk-checkbox.orange:before {
+    background-color: #f97316;
+}
+
+.cyberpunk-checkbox.red {
+    border-color: #ef4444;
+}
+
+.cyberpunk-checkbox.red:before {
+    background-color: #ef4444;
+}
+
+.cyberpunk-checkbox.cyan {
+    border-color: #06b6d4;
+}
+
+.cyberpunk-checkbox.cyan:before {
+    background-color: #06b6d4;
+}
+
+.cyberpunk-checkbox-label {
+    font-size: 12px;
+    color: #cbd5e1;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Custom Scrollbar - Invisible but functional */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(71, 85, 105, 0.3) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(71, 85, 105, 0.3);
+    border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(71, 85, 105, 0.5);
+}
+
+/* DataTables Dark Theme Customization */
+.datatable-wrapper table.dataTable {
+    color: #cbd5e1;
+    border-collapse: collapse;
+}
+
+.datatable-wrapper table.dataTable thead th {
+    background: #1e293b;
+    color: #94a3b8;
+    border-bottom: 1px solid #334155;
+    padding: 12px 8px;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.datatable-wrapper table.dataTable tbody td {
+    padding: 10px 8px;
+    border-bottom: 1px solid #1e293b;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+}
+
+.datatable-wrapper table.dataTable tbody tr {
+    background: transparent;
+}
+
+.datatable-wrapper table.dataTable tbody tr:hover {
+    background: rgba(51, 65, 85, 0.3);
+}
+
+.datatable-wrapper table.dataTable tbody tr:nth-child(odd) {
+    background: rgba(15, 23, 42, 0.3);
+}
+
+.datatable-wrapper table.dataTable tbody tr:nth-child(odd):hover {
+    background: rgba(51, 65, 85, 0.4);
+}
+
+.datatable-wrapper .dataTables_wrapper .dataTables_length,
+.datatable-wrapper .dataTables_wrapper .dataTables_filter,
+.datatable-wrapper .dataTables_wrapper .dataTables_info,
+.datatable-wrapper .dataTables_wrapper .dataTables_paginate {
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.datatable-wrapper .dataTables_wrapper .dataTables_length select,
+.datatable-wrapper .dataTables_wrapper .dataTables_filter input {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: #cbd5e1;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 0 4px;
+}
+
+.datatable-wrapper .dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #94a3b8 !important;
+    background: transparent;
+    border: 1px solid #334155;
+    padding: 4px 10px;
+    margin: 0 2px;
+    border-radius: 4px;
+}
+
+.datatable-wrapper .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #1e293b !important;
+    border-color: #475569;
+    color: #cbd5e1 !important;
+}
+
+.datatable-wrapper .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #0ea5e9 !important;
+    border-color: #0ea5e9;
+    color: white !important;
+}
+
+.datatable-wrapper .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
