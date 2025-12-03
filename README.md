@@ -35,12 +35,14 @@ The dashboard visualizes 16 days of testing data collected in Patiala, India (No
 ## 🎬 Demo
 
 <p align="center">
-  <a href="Capture Assets/VideoZephyrStation.mp4">
-    <img src="Capture Assets/PosterZS.png" alt="Watch Demo Video" width="80%">
-  </a>
+  <img src="Capture Assets/PosterZS.png" alt="Zephyr Station Dashboard Demo" width="80%">
 </p>
 
-<p align="center"><em>Click to watch the demo video</em></p>
+<p align="center">
+  <em>📹 <a href="https://drive.google.com/file/d/YOUR_VIDEO_ID/view">Watch Demo Video on Google Drive</a></em>
+</p>
+
+> **Note:** Upload your `VideoZephyrStation.mp4` to Google Drive or YouTube and replace `YOUR_VIDEO_ID` with the actual link.
 
 ---
 
