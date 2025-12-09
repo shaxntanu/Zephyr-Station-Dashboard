@@ -42,13 +42,13 @@ Open [http://localhost:3000](http://localhost:3000) to view the dashboard.
 
 ## 🎛️ Simulated Hardware
 
-- **BME280** — Primary temperature, humidity & pressure sensor
-- **DS18B20** — Backup temperature sensor
-- **MQ-135** — Air quality / gas sensor
-- **DS3231 RTC** — Real-time clock module
-- **0.96" OLED** — 128x64 display
-- **SD Card Module** — Data logging storage
-- **Piezo Buzzer** — Audio alerts
+- **BME280** - Primary temperature, humidity & pressure sensor
+- **DS18B20** - Backup temperature sensor
+- **MQ-135** - Air quality / gas sensor
+- **DS3231 RTC** - Real-time clock module
+- **0.96" OLED** - 128x64 display
+- **SD Card Module** - Data logging storage
+- **Piezo Buzzer** - Audio alerts
 
 ## 📄 Documentation
 
