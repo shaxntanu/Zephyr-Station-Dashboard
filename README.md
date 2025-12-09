@@ -1,6 +1,6 @@
 # 🌡️ Zephyr Station
 
-**Smart Room Environmental Monitor** — A real-time dashboard simulation for IoT environmental monitoring.
+**Smart Room Environmental Monitor** - A real-time dashboard simulation for IoT environmental monitoring.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the dashboard.
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Highlights
 
 The dashboard features:
 - Dark-themed responsive UI
