@@ -4,7 +4,7 @@
 
 ### Smart Room Environmental Monitor
 
-<img src="https://raw.githubusercontent.com/shaxntanu/Zephyr-Station/main/Capture%20Assets/PosterZS.png" alt="Zephyr Station Banner" width="600"/>
+<img src="https://raw.githubusercontent.com/shaxntanu/Zephyr-Station-Dashboard/main/Capture%20Assets/PosterZS.png" alt="Zephyr Station Banner" width="600"/>
 
 [![ESP32](https://img.shields.io/badge/ESP32-Dev%20Module-E7352C?style=flat-square&logo=espressif&logoColor=white)](https://www.espressif.com/)
 [![Arduino](https://img.shields.io/badge/Arduino-IDE-00979D?style=flat-square&logo=arduino&logoColor=white)](https://www.arduino.cc/)
