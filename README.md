@@ -168,16 +168,12 @@ npm run dev
 
 **16-Day Testing Period** • Nov 18 - Dec 3, 2025 • Patiala, India
 
-</div>
-
 | Metric | Average | Range | Data Points |
 |:------:|:-------:|:-----:|:-----------:|
 | 🌡️ Temperature | **16.7°C** | 15-18°C | 34,560 |
 | 💧 Humidity | **80%** | 72-84% | 34,560 |
 | 🌀 Pressure | **30.07 inHg** | 30.03-30.16 | 34,560 |
 | 💨 Air Quality | **255.2 AQI** | 155-282 | 34,560 |
-
-<div align="center">
 
 **Total: 138,240 data points** • Sampled every 10 seconds
 
