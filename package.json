@@ -14,7 +14,7 @@
     "datatables.net-dt": "^2.3.5",
     "datatables.net-react": "^1.0.1",
     "jquery": "^3.7.1",
-    "next": "16.0.6",
+    "next": "^16.0.8",
     "react": "19.2.0",
     "react-chartjs-2": "^5.3.1",
     "react-dom": "19.2.0"
@@ -27,7 +27,7 @@
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "16.0.6",
+    "eslint-config-next": "^16.0.8",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
