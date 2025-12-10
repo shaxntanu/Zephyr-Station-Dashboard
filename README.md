@@ -80,8 +80,7 @@ Zephyr Station is an advanced environmental monitoring system designed for conti
 
 ## 🛠️ Hardware Components
 
-<details>
-<summary><b>📦 Click to expand full components list</b></summary>
+<div align="center">
 
 | Component | Model/Type | Qty | Purpose |
 |:----------|:-----------|:---:|:--------|
@@ -96,7 +95,7 @@ Zephyr Station is an advanced environmental monitoring system designed for conti
 | ⚡ Resistor | 4.7kΩ | 1 | DS18B20 pull-up |
 | 🔌 Power | 5V 2A USB | 1 | System power |
 
-</details>
+</div>
 
 ---
 
@@ -104,27 +103,23 @@ Zephyr Station is an advanced environmental monitoring system designed for conti
 
 <div align="center">
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                      ESP32 Pin Mapping                       │
-├─────────────────┬─────────────┬──────────────────────────────┤
-│    Component    │   GPIO Pin  │            Notes             │
-├─────────────────┼─────────────┼──────────────────────────────┤
-│ OLED SDA        │     21      │ I2C Bus 0                    │
-│ OLED SCL        │     22      │ I2C Bus 0                    │
-│ BME280 SDA      │     15      │ I2C Bus 1                    │
-│ BME280 SCL      │      2      │ I2C Bus 1                    │
-│ DS18B20         │      4      │ 1-Wire (4.7kΩ pull-up)       │
-│ RTC SDA         │     13      │ I2C Bus 2                    │
-│ RTC SCL         │     14      │ I2C Bus 2                    │
-│ SD Card CS      │      5      │ SPI                          │
-│ SD Card MOSI    │     23      │ SPI                          │
-│ SD Card MISO    │     19      │ SPI                          │
-│ SD Card SCK     │     18      │ SPI                          │
-│ MQ-135          │     34      │ Analog input                 │
-│ Buzzer          │     25      │ Digital output               │
-└─────────────────┴─────────────┴──────────────────────────────┘
-```
+| Component | GPIO Pin | Notes |
+|:----------|:--------:|:------|
+| OLED SDA | 21 | I2C Bus 0 |
+| OLED SCL | 22 | I2C Bus 0 |
+| BME280 SDA | 15 | I2C Bus 1 |
+| BME280 SCL | 2 | I2C Bus 1 |
+| DS18B20 | 4 | 1-Wire (4.7kΩ pull-up) |
+| RTC SDA | 13 | I2C Bus 2 |
+| RTC SCL | 14 | I2C Bus 2 |
+| SD Card CS | 5 | SPI |
+| SD Card MOSI | 23 | SPI |
+| SD Card MISO | 19 | SPI |
+| SD Card SCK | 18 | SPI |
+| MQ-135 | 34 | Analog input |
+| Buzzer | 25 | Digital output |
+
+</div>
 
 ---
 
@@ -137,18 +132,18 @@ cd Zephyr-Station
 ```
 
 ### 2️⃣ Install Libraries
-```
+
 📚 Required Arduino Libraries:
-├── Adafruit GFX Library
-├── Adafruit SSD1306
-├── Adafruit BME280 Library
-├── OneWire
-├── DallasTemperature
-├── RTClib
-└── ArduinoJson (for WiFi)
-```
+- Adafruit GFX Library
+- Adafruit SSD1306
+- Adafruit BME280 Library
+- OneWire
+- DallasTemperature
+- RTClib
+- ArduinoJson (for WiFi)
 
 ### 3️⃣ Upload to ESP32
+
 1. Open `.ino` file in Arduino IDE
 2. Select **Board**: `ESP32 Dev Module`
 3. Select correct **Port**
