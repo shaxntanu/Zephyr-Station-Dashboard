@@ -2,7 +2,7 @@
 
 # 🌡️ Zephyr Station
 
-### Smart Room Environmental Monitor
+### Smart Room Environmental Monitor 
 
 <img src="https://raw.githubusercontent.com/shaxntanu/Zephyr-Station-Dashboard/main/Assets/PosterZS.png" alt="Zephyr Station Banner" width="600"/>
 
