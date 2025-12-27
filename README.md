@@ -185,7 +185,7 @@ npm run dev
 | Resource | Link |
 |:--------:|:----:|
 | 🚀 Live Dashboard | [Vercel](https://zephyr-station-dashboard.vercel.app) |
-| 📊 Dashboard Repo | [GitHub](https://github.com/shaxntanu/Zephyr-Station-Dashboard) |
+| 📊 Hardware Repo | [GitHub](https://github.com/shaxntanu/Zephyr-Station) |
 | 🎥 Overview Video | [Google Drive](https://drive.google.com/file/d/1iaR-xoKKhLDQm8VRmJFT_1i-tg9UFFnZ/view?usp=sharing) |
 | 📊 Presentation | [Google Drive](https://drive.google.com/file/d/1iaR-xoKKhLDQm8VRmJFT_1i-tg9UFFnZ/view?usp=sharing) |
 | 📄 Technical Report | [Notion Document](https://crocus-zenobia-863.notion.site/Zephyr-Station-Technical-Report-de41e9c0afd3444195afbac904fe2edc?pvs=74) |
